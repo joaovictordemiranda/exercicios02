@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+table {
+    width: 500px;
+    border-collapse: separate;
+    border-radius: 10px;
+}
+
+main {
+    translate: 50%, -50%;
+    background-color: rgba(21, 104, 21, 0.692);
+    padding: 10px;
+    display: flex;
+    border-radius: 0 5px;
+}
+
+caption {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+tbody > tr:nth-child(2n) {
+    background-color: lightgray;
+
+}
+
+td {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
