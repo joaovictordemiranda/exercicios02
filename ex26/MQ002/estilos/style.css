@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/* Configurações Gerais */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+}
+
+h1 {
+    color:  wheat;
+    text-shadow: 3px 3px 0px #1526a7;
+}

@@ -1,0 +1,7 @@
+--- OBSERVAÇÕES ---
+
+// Toda ( Media Querie ) metódo nao tem parenteses mas os componentes ficam entre parenteses  ( Media Features )
+
+*
+- background-position: left buttom;
+- background-imag: url(passo o caminho);
