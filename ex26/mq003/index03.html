@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Querie</title>
+    <style>
+    /* Configurações Gerais */
+            
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    html, body {
+        width: 100vw;
+        height: 100vh;
+        background-color: blue;
+    }
+
+    h1 {
+        color:  wheat;
+        text-shadow: 3px 3px 0px #1526a7;
+    }
+    /* Configuraçoes Portrait */
+    @media screen and (orientatio: portrait) {
+        body {
+            background-position: center bottom;
+        }
+    }
+    /* Configurações Paisagem */
+    @media screen and (orientation: landscape){
+        body {
+            background-position: left bottom;
+        }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mude a Orientação do seu dispositivo...</h1>
+    </header>
+</body>
+</html>
